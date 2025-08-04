@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function App() {
+export default function ColorChanger() {
   const [color, setColor] = useState("dodgerblue");
   const [input, setInput] = useState("");
 
